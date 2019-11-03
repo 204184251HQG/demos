@@ -1,7 +1,7 @@
 KVERS = $(shell uname -r)
 
 # Kernel modules
-obj-m += globalfifo.o globalfifo-dev.o
+obj-m += globalfifo.o
 
 # Specify flags for the module compilation.
 EXTRA_CFLAGS=-g -O0

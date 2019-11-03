@@ -1,0 +1,5 @@
+.mk
+.ko
+.o.d
+.mod.c
+globalfifo_epoll
